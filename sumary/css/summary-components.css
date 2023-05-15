@@ -1,0 +1,107 @@
+.sumary-component{
+    width: inherit;
+    padding: 20px 25px 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sumary-component-title h2{
+    margin: 0;
+    text-align: start;
+
+}
+
+.sumary-component-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbedec;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.reaction-icon-title{
+    display: inherit;
+    gap: 20px;
+}
+
+.reaction-title p{
+font-weight: bold;
+color: #fe6868;
+}
+
+.memory{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbedec;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.memory-icon-title{
+    display: inherit;
+    gap: 20px;
+}
+
+.memory-title p{
+font-weight: bold;
+color: #fdcc6c;
+}
+
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbedec;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.verbal-icon-title{
+    display: inherit;
+    gap: 20px;
+}
+
+.verbal-title p{
+font-weight: bold;
+color: #3bcba9;
+}
+.visual{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbedec;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.visual-icon-title{
+    display: inherit;
+    gap: 20px;
+}
+
+.visual-title p{
+font-weight: bold;
+color: #1124d6;
+}
+
+.summary-component-button{
+    margin-top: 30px;
+}
+.summary-component-button button{
+    width: 100%;
+    padding: 15PX 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #303b59;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
