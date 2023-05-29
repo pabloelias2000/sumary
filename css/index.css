@@ -1,0 +1,135 @@
+@import 'result-component.css';
+@import 'summary-components.css';
+@import "./colors.css";
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-section{
+    width: 55%;
+    height: 465px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px #a391ff71;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      margin-top: 90px;
+      margin-bottom: 90px;
+    }
+  
+    .container-section {
+      width: 90%;
+      height: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .result-component {
+      padding: 20px 25px;
+    }
+  
+    .result-component-numbers {
+      flex-direction: row;
+    }
+  
+    .numbers {
+      width: 60px;
+      height: 60px;
+      padding: 45px;
+      font-size: 24px;
+    }
+  
+    .numbers span:nth-child(1) {
+      font-size: 48px;
+    }
+  
+    .result-component-paragraph {
+      margin-top: 20px;
+    }
+  
+    .result-paragraph {
+      width: 90%;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .result-component {
+      padding: 10px 10px;
+    }
+  
+    .numbers {
+      width: 60px;
+      height: 60px;
+      padding:40px;
+      font-size: 24px;
+    }
+  }
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .summary-component {
+      padding: 20px;
+    }
+  
+    .summary-component-title h2 {
+      text-align: center;
+    }
+  
+    .summary-component-list {
+      margin-top: 10px;
+    }
+  
+    .reaction,
+    .memory,
+    .verbal,
+    .visual {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .reaction-icon-title,
+    .memory-icon-title,
+    .verbal-icon-title,
+    .visual-icon-title {
+      gap: 10px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .summary-component-button button {
+      padding: 12px 0;
+      font-size: 14px;
+    }
+  
+    .bold {
+      font-weight: bold;
+    }
+}
